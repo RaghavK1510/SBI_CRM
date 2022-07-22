@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Hybrid_Demo1">
+
+     <listeners>
+          <listener class-name="com.OtherPSeg.utilities.ExtentReport"/>
+     </listeners>
+
+   <test name="SBI Test">
+          <classes>
+          
+                   <!-- <class name="com.OtherPSeg.testCases.TC_LoginPage_001"/>
+                   <class name="com.OtherPSeg.testCases.ExtractData"/>  -->
+                   <class name="com.OtherPSeg.testCases.TC_NewLead_002"/> 
+                   <class name="com.OtherPSeg.testCases.TC_Interested_003"/>
+                    <class name="com.OtherPSeg.testCases.TC_Follow_Up_004"/>
+                   <class name="com.OtherPSeg.testCases.TC_Appointments_005"/> 
+                   <class name="com.OtherPSeg.testCases.TC_Docs_Collection_006"/> 
+                   <class name="com.OtherPSeg.testCases.TC_Closure_007">  
+                   
+           </class> 
+                   
+                   
+          
+         </classes>
+   </test>
+
+</suite>
